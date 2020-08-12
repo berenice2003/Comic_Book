@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A77D207924E44CBD002285DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77D207824E44CBD002285DA /* AppDelegate.swift */; };
+		A77D207B24E44CBD002285DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77D207A24E44CBD002285DA /* SceneDelegate.swift */; };
+		A77D207D24E44CBD002285DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77D207C24E44CBD002285DA /* ViewController.swift */; };
+		A77D208024E44CBD002285DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77D207E24E44CBD002285DA /* Main.storyboard */; };
+		A77D208224E44CBF002285DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77D208124E44CBF002285DA /* Assets.xcassets */; };
+		A77D208524E44CBF002285DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77D208324E44CBF002285DA /* LaunchScreen.storyboard */; };
+		A77D209024E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77D208F24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests.swift */; };
+		A77D209B24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77D209A24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests.swift */; };
+		A77D20A924E44FBA002285DA /* Peter_Parker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A77D20A824E44FBA002285DA /* Peter_Parker.jpg */; };
+		A77D20AB24E44FC4002285DA /* IronMan.png in Resources */ = {isa = PBXBuildFile; fileRef = A77D20AA24E44FC4002285DA /* IronMan.png */; };
+		A77D20AD24E4525C002285DA /* Bad Dum tss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A77D20AC24E4525C002285DA /* Bad Dum tss.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A77D208C24E44CC0002285DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77D206D24E44CBD002285DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77D207424E44CBD002285DA;
+			remoteInfo = Berenice_C_ComicBook_Excersice;
+		};
+		A77D209724E44CC0002285DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77D206D24E44CBD002285DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77D207424E44CBD002285DA;
+			remoteInfo = Berenice_C_ComicBook_Excersice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A77D207524E44CBD002285DA /* Berenice_C_ComicBook_Excersice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berenice_C_ComicBook_Excersice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77D207824E44CBD002285DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A77D207A24E44CBD002285DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A77D207C24E44CBD002285DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A77D207F24E44CBD002285DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A77D208124E44CBF002285DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A77D208424E44CBF002285DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A77D208624E44CBF002285DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77D208B24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Berenice_C_ComicBook_ExcersiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77D208F24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berenice_C_ComicBook_ExcersiceTests.swift; sourceTree = "<group>"; };
+		A77D209124E44CC0002285DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77D209624E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Berenice_C_ComicBook_ExcersiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77D209A24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berenice_C_ComicBook_ExcersiceUITests.swift; sourceTree = "<group>"; };
+		A77D209C24E44CC0002285DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77D20A824E44FBA002285DA /* Peter_Parker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Peter_Parker.jpg; sourceTree = "<group>"; };
+		A77D20AA24E44FC4002285DA /* IronMan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IronMan.png; sourceTree = "<group>"; };
+		A77D20AC24E4525C002285DA /* Bad Dum tss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bad Dum tss.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77D207224E44CBD002285DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77D208824E44CC0002285DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77D209324E44CC0002285DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A77D206C24E44CBD002285DA = {
+			isa = PBXGroup;
+			children = (
+				A77D207724E44CBD002285DA /* Berenice_C_ComicBook_Excersice */,
+				A77D208E24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests */,
+				A77D209924E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests */,
+				A77D207624E44CBD002285DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A77D207624E44CBD002285DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77D207524E44CBD002285DA /* Berenice_C_ComicBook_Excersice.app */,
+				A77D208B24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests.xctest */,
+				A77D209624E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77D207724E44CBD002285DA /* Berenice_C_ComicBook_Excersice */ = {
+			isa = PBXGroup;
+			children = (
+				A77D207824E44CBD002285DA /* AppDelegate.swift */,
+				A77D207A24E44CBD002285DA /* SceneDelegate.swift */,
+				A77D207C24E44CBD002285DA /* ViewController.swift */,
+				A77D207E24E44CBD002285DA /* Main.storyboard */,
+				A77D20AC24E4525C002285DA /* Bad Dum tss.jpg */,
+				A77D20A824E44FBA002285DA /* Peter_Parker.jpg */,
+				A77D208124E44CBF002285DA /* Assets.xcassets */,
+				A77D20AA24E44FC4002285DA /* IronMan.png */,
+				A77D208324E44CBF002285DA /* LaunchScreen.storyboard */,
+				A77D208624E44CBF002285DA /* Info.plist */,
+			);
+			path = Berenice_C_ComicBook_Excersice;
+			sourceTree = "<group>";
+		};
+		A77D208E24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A77D208F24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests.swift */,
+				A77D209124E44CC0002285DA /* Info.plist */,
+			);
+			path = Berenice_C_ComicBook_ExcersiceTests;
+			sourceTree = "<group>";
+		};
+		A77D209924E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A77D209A24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests.swift */,
+				A77D209C24E44CC0002285DA /* Info.plist */,
+			);
+			path = Berenice_C_ComicBook_ExcersiceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77D207424E44CBD002285DA /* Berenice_C_ComicBook_Excersice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77D209F24E44CC0002285DA /* Build configuration list for PBXNativeTarget "Berenice_C_ComicBook_Excersice" */;
+			buildPhases = (
+				A77D207124E44CBD002285DA /* Sources */,
+				A77D207224E44CBD002285DA /* Frameworks */,
+				A77D207324E44CBD002285DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Berenice_C_ComicBook_Excersice;
+			productName = Berenice_C_ComicBook_Excersice;
+			productReference = A77D207524E44CBD002285DA /* Berenice_C_ComicBook_Excersice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A77D208A24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77D20A224E44CC0002285DA /* Build configuration list for PBXNativeTarget "Berenice_C_ComicBook_ExcersiceTests" */;
+			buildPhases = (
+				A77D208724E44CC0002285DA /* Sources */,
+				A77D208824E44CC0002285DA /* Frameworks */,
+				A77D208924E44CC0002285DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77D208D24E44CC0002285DA /* PBXTargetDependency */,
+			);
+			name = Berenice_C_ComicBook_ExcersiceTests;
+			productName = Berenice_C_ComicBook_ExcersiceTests;
+			productReference = A77D208B24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A77D209524E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77D20A524E44CC0002285DA /* Build configuration list for PBXNativeTarget "Berenice_C_ComicBook_ExcersiceUITests" */;
+			buildPhases = (
+				A77D209224E44CC0002285DA /* Sources */,
+				A77D209324E44CC0002285DA /* Frameworks */,
+				A77D209424E44CC0002285DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77D209824E44CC0002285DA /* PBXTargetDependency */,
+			);
+			name = Berenice_C_ComicBook_ExcersiceUITests;
+			productName = Berenice_C_ComicBook_ExcersiceUITests;
+			productReference = A77D209624E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77D206D24E44CBD002285DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Berenice Correa";
+				TargetAttributes = {
+					A77D207424E44CBD002285DA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A77D208A24E44CC0002285DA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A77D207424E44CBD002285DA;
+					};
+					A77D209524E44CC0002285DA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A77D207424E44CBD002285DA;
+					};
+				};
+			};
+			buildConfigurationList = A77D207024E44CBD002285DA /* Build configuration list for PBXProject "Berenice_C_ComicBook_Excersice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A77D206C24E44CBD002285DA;
+			productRefGroup = A77D207624E44CBD002285DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77D207424E44CBD002285DA /* Berenice_C_ComicBook_Excersice */,
+				A77D208A24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests */,
+				A77D209524E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A77D207324E44CBD002285DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77D208524E44CBF002285DA /* LaunchScreen.storyboard in Resources */,
+				A77D20AD24E4525C002285DA /* Bad Dum tss.jpg in Resources */,
+				A77D20AB24E44FC4002285DA /* IronMan.png in Resources */,
+				A77D208224E44CBF002285DA /* Assets.xcassets in Resources */,
+				A77D208024E44CBD002285DA /* Main.storyboard in Resources */,
+				A77D20A924E44FBA002285DA /* Peter_Parker.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77D208924E44CC0002285DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77D209424E44CC0002285DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77D207124E44CBD002285DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77D207D24E44CBD002285DA /* ViewController.swift in Sources */,
+				A77D207924E44CBD002285DA /* AppDelegate.swift in Sources */,
+				A77D207B24E44CBD002285DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77D208724E44CC0002285DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77D209024E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77D209224E44CC0002285DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77D209B24E44CC0002285DA /* Berenice_C_ComicBook_ExcersiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A77D208D24E44CC0002285DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A77D207424E44CBD002285DA /* Berenice_C_ComicBook_Excersice */;
+			targetProxy = A77D208C24E44CC0002285DA /* PBXContainerItemProxy */;
+		};
+		A77D209824E44CC0002285DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A77D207424E44CBD002285DA /* Berenice_C_ComicBook_Excersice */;
+			targetProxy = A77D209724E44CC0002285DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A77D207E24E44CBD002285DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77D207F24E44CBD002285DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A77D208324E44CBF002285DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77D208424E44CBF002285DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A77D209D24E44CC0002285DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A77D209E24E44CC0002285DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A77D20A024E44CC0002285DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Berenice_C_ComicBook_Excersice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Berenice-C-ComicBook-Excersice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A77D20A124E44CC0002285DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Berenice_C_ComicBook_Excersice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Berenice-C-ComicBook-Excersice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A77D20A324E44CC0002285DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Berenice_C_ComicBook_ExcersiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Berenice-C-ComicBook-ExcersiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berenice_C_ComicBook_Excersice.app/Berenice_C_ComicBook_Excersice";
+			};
+			name = Debug;
+		};
+		A77D20A424E44CC0002285DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Berenice_C_ComicBook_ExcersiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Berenice-C-ComicBook-ExcersiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berenice_C_ComicBook_Excersice.app/Berenice_C_ComicBook_Excersice";
+			};
+			name = Release;
+		};
+		A77D20A624E44CC0002285DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Berenice_C_ComicBook_ExcersiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Berenice-C-ComicBook-ExcersiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Berenice_C_ComicBook_Excersice;
+			};
+			name = Debug;
+		};
+		A77D20A724E44CC0002285DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Berenice_C_ComicBook_ExcersiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesyswork.com.Berenice-C-ComicBook-ExcersiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Berenice_C_ComicBook_Excersice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77D207024E44CBD002285DA /* Build configuration list for PBXProject "Berenice_C_ComicBook_Excersice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77D209D24E44CC0002285DA /* Debug */,
+				A77D209E24E44CC0002285DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77D209F24E44CC0002285DA /* Build configuration list for PBXNativeTarget "Berenice_C_ComicBook_Excersice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77D20A024E44CC0002285DA /* Debug */,
+				A77D20A124E44CC0002285DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77D20A224E44CC0002285DA /* Build configuration list for PBXNativeTarget "Berenice_C_ComicBook_ExcersiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77D20A324E44CC0002285DA /* Debug */,
+				A77D20A424E44CC0002285DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77D20A524E44CC0002285DA /* Build configuration list for PBXNativeTarget "Berenice_C_ComicBook_ExcersiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77D20A624E44CC0002285DA /* Debug */,
+				A77D20A724E44CC0002285DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77D206D24E44CBD002285DA /* Project object */;
+}
